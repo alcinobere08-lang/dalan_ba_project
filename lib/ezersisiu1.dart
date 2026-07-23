@@ -1,4 +1,7 @@
+void apresenta() {
+  print("hau aprende flutter o dart");
+}
+
 void main() {
-  List<String> munisipiu = ["Dili", "Baucau", "Bobonaro", "Covalima"];
-  print(munisipiu[2]);
+  apresenta();
 }
