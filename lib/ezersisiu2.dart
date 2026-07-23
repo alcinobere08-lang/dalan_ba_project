@@ -1,5 +1,9 @@
+void mostraMunisipiu(String naran) {
+  print("Munisipiu: $naran");
+}
+
 void main() {
-  List<String> feramenta = ["flutter", "dart", "sqlLite"];
-  feramenta.add("OpenStreetMap");
-  print(feramenta);
+  mostraMunisipiu("Dili");
+  mostraMunisipiu("baucau");
+  mostraMunisipiu("Bobonaro");
 }
