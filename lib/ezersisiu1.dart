@@ -1,7 +1,5 @@
-void apresenta() {
-  print("hau aprende flutter o dart");
-}
-
 void main() {
-  apresenta();
+  String? munisipiu;
+
+  print(munisipiu);
 }
