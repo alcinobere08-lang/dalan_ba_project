@@ -1,4 +1,18 @@
+class Universidade {
+  String nome = "";
+  String munisipiu = "";
+
+  void apresenta() {
+    print("Universidade: $nome");
+    print("Munisipiu: $munisipiu");
+  }
+}
+
 void main() {
-  String? motorista;
-  print(motorista ?? "motorista laiha");
+  Universidade Uni1 = Universidade();
+
+  Uni1.nome = "DIT";
+  Uni1.munisipiu = "DIli";
+
+  Uni1.apresenta();
 }
