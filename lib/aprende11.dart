@@ -14,7 +14,7 @@
 
 //null+operator(??)
 
-void main() {
-  String? naran;
-  print(naran ?? "deskonesidu");
-}
+// void main() {
+//   String? naran;
+//   print(naran ?? "deskonesidu");
+// }
